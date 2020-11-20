@@ -1,3 +1,23 @@
-h1{
-  color: brown;
+.all{
+  height: 100vh;
+  width: 100%;
+}
+
+.top-contents{
+}
+.rogo{
+  position: relative;;
+  z-index: 1;
+}
+.title{
+  position: absolute;
+  z-index: 2;
+}
+
+.top-images{
+}
+.top-img img{
+  object-fit: cover;
+  height: 700px;
+  width: 100%;
 }
