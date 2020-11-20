@@ -4,6 +4,8 @@
 }
 
 .top-contents{
+  height: 700px;
+  width: 100%;
 }
 .rogo{
   position: relative;;
@@ -16,7 +18,11 @@
 
 .top-images{
 }
+
+.top-img{
+}
 .top-img img{
+  position: absolute;
   object-fit: cover;
   height: 700px;
   width: 100%;
