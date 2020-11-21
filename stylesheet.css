@@ -102,3 +102,35 @@ body{
     opacity: 0;
   }
 }
+
+.greeting-contents{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: ヒラギノ明朝 ProN W3;
+}
+
+.greeting{
+  font-size: 35px;
+  border-bottom: 3px double orangered;
+  margin: 35px;
+
+}
+.greeting-explanation{
+  width: 95%;
+  animation: slideIn 3s 1s;
+}
+
+@keyframes slideIn {
+  0%{
+    opacity: 0;
+    transform: translateY(64px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
