@@ -5,6 +5,7 @@ body{
 .all{
   height: 100vh;
   width: 100%;
+  background-color:#F2F2B0 ;
 }
 
 .top-contents{
@@ -100,5 +101,42 @@ body{
   }
   100%{
     opacity: 0;
+  }
+}
+
+.greeting-contents{
+  background-color: #F2F2B0;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: OSAKA;
+}
+
+.greeting{
+  font-size: 35px;
+  border-bottom: 3px double orangered;
+  margin: 35px;
+
+}
+.greeting-explanation{
+  width: 95%;
+  font-size: 20px;
+  animation-name: slideIn;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes slideIn {
+  0%{
+    opacity: 0;
+    transform: translateY(64px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
   }
 }
