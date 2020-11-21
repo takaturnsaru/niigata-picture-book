@@ -5,6 +5,7 @@ body{
 .all{
   height: 100vh;
   width: 100%;
+  background-color:#F2F2B0 ;
 }
 
 .top-contents{
@@ -104,13 +105,13 @@ body{
 }
 
 .greeting-contents{
-  background-color: black;
-  color: white;
+  background-color: #F2F2B0;
+  color: gray;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: ヒラギノ明朝 ProN W3;
+  font-family: OSAKA;
 }
 
 .greeting{
@@ -121,8 +122,13 @@ body{
 }
 .greeting-explanation{
   width: 95%;
-  animation: slideIn 3s 1s;
+  font-size: 20px;
+  animation-name: slideIn;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
 }
+
 
 @keyframes slideIn {
   0%{
