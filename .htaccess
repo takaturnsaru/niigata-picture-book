@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "niigata"
+AuthUserFile ".htpasswdファイルの場所"
+require valid-user
