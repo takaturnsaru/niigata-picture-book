@@ -10,7 +10,7 @@ body{
 
 .top-contents{
   position: relative;
-  height: 700px;
+  height: 850px;
   width: 100%;
 }
 .title{
@@ -19,23 +19,23 @@ body{
   color: white;
   font-size: 150px;
   font-family: メイリオ;
-  margin-left: 50px;
+  margin: 300px 0 0 400px;
 }
 
 .top-images img{
   object-fit: cover;
-
-  height: 700px;
+  height: 850px;
   width: 100%;
 }
+
 .top-img1{
   z-index: 5;
   position: absolute;
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
-
 }
+
 .top-img2{
   width: 100%;
   z-index: 4;
@@ -122,10 +122,9 @@ body{
 .greeting-explanation{
   width: 95%;
   font-size: 20px;
-  animation-name: slideIn;
-  animation-duration: 1.5s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1.3s 0s ease-out;
 }
 
 
@@ -149,14 +148,14 @@ body{
 
 .tourism-back{
   display: flex;
-  color: gray;
+  color: white;
   background-color:gold;
   height: 450px;
 }
 
 .tourism-images{
   position: relative;
-  margin: 15px 0 0 50px;
+  margin: 25px 0 0 50px;
 }
 
 @keyframes contents-album{
@@ -213,25 +212,26 @@ body{
   display: flex;
   flex-direction: column;
   margin-left: 70px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1.3s 0s ease-out;
+
 }
 .tourism-title{
   font-size: 50px;
   margin: 25px 0;
-  animation: slideIn 1.5s .0s ease-out forwards;
 }
 .tourism-explanation{
   font-size: 20px;
-  animation: slideIn 1.5s .0s ease-out forwards;
   margin-top: 30px;
 }
 .tourism-corner-btn {
   margin-top: 60px;
-  animation: slideIn 1.5s .0s ease-out forwards;
   
 }
 .tourism-corner-btn a{
   text-decoration: none;
-  border: 2px solid gray;
+  border: 2px solid white;
   color:white;
   width: 500px;
   height: 60px;
@@ -242,7 +242,7 @@ body{
 }
 
 .tourism-corner-btn a:hover{
-  background-color: gray;
+  background-color: rgb(250, 230, 117);
 }
 
 .gourmet-contents{
@@ -304,25 +304,26 @@ body{
   display: flex;
   flex-direction: column;
   margin-left: 800px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1.3s 0s ease-out;
 }
+
 .gourmet-title{
   font-size: 50px;
   margin: 25px 0;
-  animation: slideIn 1.5s .0s ease-out forwards;
 }
 .gourmet-explanation{
   font-size: 20px;
-  animation: slideIn 1.5s .0s ease-out forwards;
   margin-top: 30px;
 }
 .gourmet-corner-btn {
   margin-top: 80px;
-  animation: slideIn 1.5s .0s ease-out forwards;
   
 }
 .gourmet-corner-btn a{
   text-decoration: none;
-  border: 2px solid gray;
+  border: 2px solid white;
   color:white;
   width: 500px;
   height: 60px;
@@ -333,7 +334,7 @@ body{
 }
 
 .gourmet-corner-btn a:hover{
-  background-color: gray;
+  background-color: rgb(253, 115, 115);
 }
 .sports-contents{
   background-color: beige;
@@ -394,25 +395,26 @@ body{
   display: flex;
   flex-direction: column;
   margin-left: 50px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1.3s 0s ease-out;
+
 }
 .sports-title{
   font-size: 50px;
   margin: 25px 0;
-  animation: slideIn 1.5s .0s ease-out forwards;
 }
 .sports-explanation{
   font-size: 20px;
-  animation: slideIn 1.5s .0s ease-out forwards;
   margin-top: 30px;
 }
 .sports-corner-btn {
   margin-top: 60px;
-  animation: slideIn 1.5s .0s ease-out forwards;
   
 }
 .sports-corner-btn a{
   text-decoration: none;
-  border: 2px solid gray;
+  border: 2px solid white;
   color:white;
   width: 500px;
   height: 60px;
@@ -423,7 +425,7 @@ body{
 }
 
 .sports-corner-btn a:hover{
-  background-color: gray;
+  background-color:rgb(252, 205, 119);
 }
 
 .footer{
@@ -453,7 +455,11 @@ body{
   margin: 40px;
   text-decoration: none;
   color: white;
-  
+}
+
+.content-btn a:hover{
+  transition: color .5s;
+  color: rgb(139, 139, 139);
 }
 
 .sucsses{
@@ -463,9 +469,15 @@ body{
 
 .infomation a{
   margin: 50px 30px;
-  text-decoration: none;
   color: white;
+  transition: color .5s;
+  text-decoration: none;
 }
+
+.infomation a:hover{
+  color: rgb(139, 139, 139);
+}
+
 
 .company{
   color: white;
