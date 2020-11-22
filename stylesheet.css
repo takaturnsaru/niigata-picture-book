@@ -5,7 +5,7 @@ body{
 .all{
   height: 100vh;
   width: 100%;
-  background-color:#F2F2B0 ;
+  background-color:beige;
 }
 
 .top-contents{
@@ -63,7 +63,6 @@ body{
   position: absolute;
 
   animation-name: top-album;
-  animation-delay:100s;
   animation-duration: 15s;
   animation-delay: 9s;
   animation-iteration-count: infinite;
@@ -105,7 +104,7 @@ body{
 }
 
 .greeting-contents{
-  background-color: #F2F2B0;
+  background-color: beige;
   color: gray;
   display: flex;
   justify-content: center;
@@ -139,4 +138,109 @@ body{
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.tourism-contents{
+  background-color: beige;
+  height: 500px;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.tourism-back{
+  display: flex;
+  color: gray;
+  background-color:gold;
+  height: 450px;
+}
+
+.tourism-images{
+  position: relative;
+  margin: 15px 0 0 50px;
+}
+
+@keyframes contents-album{
+  0%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 1;
+  }
+  40%{
+    opacity: 1;
+  }
+  60%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+.tourism-images img{
+  object-fit: cover;
+  width: 700px;
+  height: 400px;
+}
+.tourism-img1{
+  z-index: 3;
+  position: absolute;
+  animation-name: contents-album ;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+.tourism-img2{
+  z-index: 2;
+  position: absolute;
+  animation-name: contents-album ;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  opacity: 0;
+}
+.tourism-img3{
+  z-index: 1;
+  position: absolute;
+  animation-name: contents-album ;
+  animation-duration: 6s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+  opacity: 0;
+}
+
+.tourism-letter{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+}
+.tourism-title{
+  font-size: 30px;
+  margin: 25px 0;
+  animation: slideIn 1.5s .0s ease-out forwards;
+}
+.tourism-explanation{
+  font-size: 20px;
+  animation: slideIn 1.5s .0s ease-out forwards;
+  margin-top: 30px;
+}
+.tourism-corner-btn {
+  margin-top: 60px;
+  animation: slideIn 1.5s .0s ease-out forwards;
+  
+}
+.tourism-corner-btn a{
+  text-decoration: none;
+  border: 2px solid gray;
+  color:white;
+  width: 500px;
+  height: 60px;
+  font-size: 30px;
+  transition: background-color .5s;
+  padding: 15px 250px 15px 5px;
+  
+}
+
+.tourism-corner-btn a:hover{
+  background-color: gray;
 }
