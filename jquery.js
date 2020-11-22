@@ -1,6 +1,6 @@
 $(function(){
   $(window).on('load scroll', function() {
-    $(".explanation").each(function() {
+    $(".show").each(function() {
        var winScroll = $(window).scrollTop();
        var winHeight = $(window).height();
        var scrollPos = winScroll + (winHeight * 0.8);
@@ -8,5 +8,5 @@ $(function(){
           $(this).css({opacity: 1, transform: 'translate(0, 0)'});
        }
     });
- });
+  });
 })
