@@ -426,3 +426,47 @@ body{
   background-color: gray;
 }
 
+.footer{
+  background-color: beige;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-contents{
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  margin-top: 200px;
+}
+
+.footer-btns{
+  display: flex;
+}
+.content-btn a{
+  font-size: 25px;
+  margin: 40px;
+  text-decoration: none;
+  color: white;
+  
+}
+
+.sucsses{
+  display: flex;
+  margin-top: 50px;
+}
+
+.infomation a{
+  margin: 50px 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.company{
+  color: white;
+}
