@@ -215,7 +215,7 @@ body{
   margin-left: 70px;
 }
 .tourism-title{
-  font-size: 30px;
+  font-size: 50px;
   margin: 25px 0;
   animation: slideIn 1.5s .0s ease-out forwards;
 }
@@ -237,10 +237,192 @@ body{
   height: 60px;
   font-size: 30px;
   transition: background-color .5s;
-  padding: 15px 250px 15px 5px;
+  padding: 15px 15px 15px 10px;
   
 }
 
 .tourism-corner-btn a:hover{
   background-color: gray;
 }
+
+.gourmet-contents{
+  background-color: beige;
+  height: 640px;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.gourmet-back{
+  display: flex;
+  color: white;
+  background-color:red;
+  height: 450px;
+}
+
+.gourmet-images{
+  position: relative;
+}
+
+.gourmet-images img{
+  object-fit: cover;
+  width: 700px;
+  height: 400px;
+  margin: 25px 0 0 50px ;
+}
+
+.gourmet-img1{
+  z-index: 3;
+  position: absolute;
+  animation-name: contents-album ;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.gourmet-img2{
+  z-index: 2;
+  position: absolute;
+  animation-name: contents-album ;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  opacity: 0;
+
+}
+
+.gourmet-img3{
+  z-index: 1;
+  position: absolute;
+  animation-name: contents-album ;
+  animation-duration: 6s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+  opacity: 0;
+}
+
+.gourmet-letter{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 800px;
+}
+.gourmet-title{
+  font-size: 50px;
+  margin: 25px 0;
+  animation: slideIn 1.5s .0s ease-out forwards;
+}
+.gourmet-explanation{
+  font-size: 20px;
+  animation: slideIn 1.5s .0s ease-out forwards;
+  margin-top: 30px;
+}
+.gourmet-corner-btn {
+  margin-top: 80px;
+  animation: slideIn 1.5s .0s ease-out forwards;
+  
+}
+.gourmet-corner-btn a{
+  text-decoration: none;
+  border: 2px solid gray;
+  color:white;
+  width: 500px;
+  height: 60px;
+  font-size: 30px;
+  transition: background-color .5s;
+  padding: 15px 15px 15px 10px;
+  
+}
+
+.gourmet-corner-btn a:hover{
+  background-color: gray;
+}
+.sports-contents{
+  background-color: beige;
+  height: 500px;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.sports-back{
+  display: flex;
+  color: white;
+  background-color:orange;
+  height: 450px;
+}
+
+.sports-images{
+  position: relative;
+}
+
+.sports-images img{
+  object-fit: cover;
+  width: 700px;
+  height: 400px;
+  margin: 25px 0 0 50px ;
+}
+
+.sports-img1{
+  z-index: 3;
+  position: absolute;
+  animation-name: contents-album ;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.sports-img2{
+  z-index: 2;
+  position: absolute;
+  animation-name: contents-album ;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  opacity: 0;
+
+}
+
+.sports-img3{
+  z-index: 1;
+  position: absolute;
+  animation-name: contents-album ;
+  animation-duration: 6s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+  opacity: 0;
+}
+
+.sports-letter{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.sports-title{
+  font-size: 50px;
+  margin: 25px 0;
+  animation: slideIn 1.5s .0s ease-out forwards;
+}
+.sports-explanation{
+  font-size: 20px;
+  animation: slideIn 1.5s .0s ease-out forwards;
+  margin-top: 30px;
+}
+.sports-corner-btn {
+  margin-top: 60px;
+  animation: slideIn 1.5s .0s ease-out forwards;
+  
+}
+.sports-corner-btn a{
+  text-decoration: none;
+  border: 2px solid gray;
+  color:white;
+  width: 500px;
+  height: 60px;
+  font-size: 30px;
+  transition: background-color .5s;
+  padding: 15px 15px 15px 10px;
+  
+}
+
+.sports-corner-btn a:hover{
+  background-color: gray;
+}
+
