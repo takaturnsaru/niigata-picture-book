@@ -1,5 +1,5 @@
 AuthType Basic
 AuthName "niigata"
-AuthUserFile "/Users/saitoutakayuki/projects/niigata-picture-book/.htpasswd"
+AuthUserFile "/niigata-picture-book.herokuapp.com/.htpasswd"
 require valid-user
 php_flag display_errors on
