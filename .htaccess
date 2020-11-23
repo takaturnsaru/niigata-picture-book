@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "niigata"
+AuthUserFile "/Users/saitoutakayuki/projects/niigata-picture-book/index.html/.htpasswd"
+require valid-user
+php_flag display_errors on
