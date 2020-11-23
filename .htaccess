@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "niigata"
-AuthUserFile "/niigata-picture-book.herokuapp.com/.htpasswd"
-require valid-user
