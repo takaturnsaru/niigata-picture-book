@@ -1,0 +1,4 @@
+AuthUserFile /app/.htpasswd
+AuthType Basic
+AuthName "niigata"
+Require valid-user
