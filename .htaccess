@@ -1,4 +1,5 @@
 AuthUserFile "/app/.htpasswd"
 AuthType Basic
 AuthName "niigata"
+AddDefaultCharset UTF-8
 Require valid-user
