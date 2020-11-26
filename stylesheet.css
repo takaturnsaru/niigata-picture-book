@@ -13,10 +13,10 @@ body{
   height: 850px;
   width: 100%;
 }
-.title{
+.title1{
   position: absolute;
   writing-mode: vertical-lr;
-  z-index: 6;
+  z-index: 55;
   color: gold;
   font-size: 200px;
   font-family: STKaiti;
@@ -27,6 +27,72 @@ body{
   animation-name: slideIn;
   animation-duration: 15s;
 }
+.title2{
+  position: absolute;
+  background:linear-gradient(pink,White);
+  writing-mode: vertical-rl;
+  z-index: 45;
+  color: chocolate;
+  font-size: 70px;
+  font-family: STKaiti;
+  margin:35px 0 0 85%; 
+  animation-name: top-album;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-name: slideIn;
+  animation-duration: 15s;
+  animation-delay: 3s;
+}
+.title3{
+  position: absolute;
+  background: linear-gradient(green,yellow);
+  writing-mode: vertical-rl;
+  z-index: 35;
+  color: rgb(124, 91, 8);
+  font-size: 70px;
+  font-family: STKaiti;
+  margin: 80px 0 0 85%;
+  animation-name: top-album;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-name: slideIn;
+  animation-duration: 15s;
+  animation-delay: 6s;
+}
+.title4{
+  position: absolute;
+  background: linear-gradient(red,black);
+  writing-mode: vertical-rl;
+  z-index: 25;
+  color: gold;
+  font-size: 80px;
+  font-family: STKaiti;
+  margin: 90px 0 0 80%;
+  animation-name: top-album;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-name: slideIn;
+  animation-duration: 15s;
+  animation-delay: 9s;
+}
+.title5{
+  position: absolute;
+  writing-mode: vertical-rl;
+  z-index: 15;
+  background: linear-gradient(White,rgb(13, 137, 238));
+  color:black;
+  font-size: 80px;
+  font-family: STKaiti;
+  margin: 100px 0 0 80%;
+  animation-name: top-album;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-name: slideIn;
+  animation-duration: 15s;
+  animation-delay: 12s;
+}
+
+
 
 .top-images img{
   object-fit: cover;
@@ -36,7 +102,7 @@ body{
 
 .top-img1{
   width: 100%;
-  z-index: 5;
+  z-index: 50;
   position: absolute;
   animation-name: top-album;
   animation-duration: 15s;
@@ -45,7 +111,7 @@ body{
 
 .top-img2{
   width: 100%;
-  z-index: 4;
+  z-index: 40;
   position: absolute;
   animation-name: top-album;
   animation-duration: 15s;
@@ -55,7 +121,7 @@ body{
 
 }
 .top-img3{
-  z-index: 3;
+  z-index: 30;
   position: absolute;
 
   animation-name: top-album;
@@ -66,7 +132,7 @@ body{
 
 }
 .top-img4{
-  z-index: 2;
+  z-index: 20;
   position: absolute;
 
   animation-name: top-album;
@@ -78,7 +144,7 @@ body{
 }
 .top-img5{
   width: 100%;
-  z-index: 1;
+  z-index: 10;
   position: absolute;
 
   animation-name: top-album;
@@ -144,7 +210,7 @@ body{
     opacity: 1;
     transform: translateY(0);
   }
-  45%{
+  40%{
     opacity: 0;
     transform: translateY(64px);
   }
