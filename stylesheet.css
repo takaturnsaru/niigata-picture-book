@@ -15,11 +15,17 @@ body{
 }
 .title{
   position: absolute;
+  writing-mode: vertical-lr;
   z-index: 6;
-  color: white;
-  font-size: 150px;
-  font-family: メイリオ;
-  margin: 300px 0 0 400px;
+  color: gold;
+  font-size: 200px;
+  font-family: STKaiti;
+  margin: 250px 0 0 650px;
+  animation-name: top-album;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-name: slideIn;
+  animation-duration: 6.8s;
 }
 
 .top-images img{
@@ -132,11 +138,15 @@ body{
 @keyframes slideIn {
   0%{
     opacity: 0;
-    transform: translateY(64px);
+    transform: translateY(-64px);
   }
-  100%{
+  50%{
     opacity: 1;
     transform: translateY(0);
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(64px);
   }
 }
 
