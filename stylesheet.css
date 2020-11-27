@@ -410,13 +410,13 @@ body{
   font-size: 30px;
   transition: background-color .5s;
   padding: 15px 15px 15px 10px;
-  
+  cursor:pointer;
 }
 
 .gourmet-corner-btn a:hover{
   background-color: rgb(253, 115, 115);
 }
-.sports-contents{
+.sports-content{
   background-color: beige;
   height: 500px;
   width: 100%;
@@ -501,12 +501,52 @@ body{
   font-size: 30px;
   transition: background-color .5s;
   padding: 15px 15px 15px 10px;
-  
+  cursor:pointer;
 }
 
 .sports-corner-btn a:hover{
   background-color:rgb(252, 205, 119);
 }
+
+.sports-type{
+  background-color: blue;
+  width: 450px;
+  margin: 25px 0 300px 250px;
+  display: none;
+
+}
+.sports-type.open{
+  list-style: none;
+  background-color: blue;
+  width: 450px;
+  margin: 25px 0 300px 250px;
+}
+
+.sports-type a{
+  text-decoration: none;
+  color: white;
+  transition: color .3s;
+
+}
+.sports-type a:hover{
+  color: gold;
+}
+
+.sports-type1{
+  font-size: 20px;
+  padding: 20px 0 20px 10px;
+}
+.sports-type2{
+  font-size: 20px;
+  padding: 20px 0 20px 10px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.sports-type3{
+  font-size: 20px;
+  padding: 20px 0 20px 10px;
+}
+
 
 .footer{
   background-color: beige;
