@@ -1,5 +1,5 @@
 body{
-  margin: -8px 0 0 -8px;
+  font-family: OSAKA  "Regular";
 }
 
 .all{
@@ -13,23 +13,48 @@ body{
   height: 1066px;
   width: 100%;
 }
+
+.main-menu{
+  position: absolute;
+  z-index: 55;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  width: 400px;
+  margin:20px 0 0 900px;
+  cursor: pointer;
+}
 .title1{
   position: absolute;
   z-index: 55;
   color:white;
   font-size: 90px;
-  font-family: OSAKA  "Regular";
-  margin: 230px 0 0 200px;
+  margin: 250px 0 0 100px;
+  letter-spacing: 20px;
 }
 .title2{
   position: absolute;
-  background:linear-gradient(pink,White);
-  writing-mode: vertical-rl;
+  background-color: white;
+  z-index: 55;
+  color: black;
+  font-size: 20px;
+  margin:800px 0 0 84.5%; 
+  animation-name: top-album;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-name: slideIn;
+  animation-duration: 15s;
+  animation-delay: 0s;
+}
+.title3{
+  position: absolute;
+  background-color: white;
   z-index: 45;
-  color: chocolate;
-  font-size: 70px;
-  font-family: STKaiti;
-  margin:35px 0 0 85%; 
+  color: black;
+  font-size: 20px;
+  margin:800px 0 0 87.2%; 
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -37,15 +62,13 @@ body{
   animation-duration: 15s;
   animation-delay: 3s;
 }
-.title3{
+.title4{
   position: absolute;
-  background: linear-gradient(green,yellow);
-  writing-mode: vertical-rl;
+  background-color: white;
   z-index: 35;
-  color: rgb(124, 91, 8);
-  font-size: 70px;
-  font-family: STKaiti;
-  margin: 80px 0 0 85%;
+  color: black;
+  font-size: 20px;
+  margin:800px 0 0 83.2%; 
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -53,15 +76,13 @@ body{
   animation-duration: 15s;
   animation-delay: 6s;
 }
-.title4{
+.title5{
   position: absolute;
-  background: linear-gradient(red,black);
-  writing-mode: vertical-rl;
   z-index: 25;
-  color: gold;
-  font-size: 80px;
-  font-family: STKaiti;
-  margin: 90px 0 0 80%;
+  background-color: white;
+  color:black;
+  font-size: 20px;
+  margin:800px 0 0 82%; 
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -69,15 +90,13 @@ body{
   animation-duration: 15s;
   animation-delay: 9s;
 }
-.title5{
+.title6{
   position: absolute;
-  writing-mode: vertical-rl;
   z-index: 15;
-  background: linear-gradient(White,rgb(13, 137, 238));
+  background-color: white;
   color:black;
-  font-size: 80px;
-  font-family: STKaiti;
-  margin: 100px 0 0 80%;
+  font-size: 20px;
+  margin:800px 0 0 79.5%; 
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -198,15 +217,19 @@ body{
 @keyframes slideIn {
   0%{
     opacity: 0;
-    transform: translateY(-64px);
+    transform: translateY(-10px);
   }
-  25%{
+  10%{
     opacity: 1;
     transform: translateY(0);
   }
-  40%{
+  26%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+  33%{
     opacity: 0;
-    transform: translateY(64px);
+    transform: translateY(10px);
   }
   100%{
     opacity: 0;
