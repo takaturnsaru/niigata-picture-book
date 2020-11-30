@@ -10,7 +10,7 @@ body{
 
 .top-contents{
   position: relative;
-  height: 1066px;
+  height: 825px;
   width: 100%;
 }
 
@@ -40,7 +40,7 @@ body{
   z-index: 55;
   color: black;
   font-size: 20px;
-  margin:800px 0 0 84.5%; 
+  margin:790px 0 0 84.5%; 
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -54,7 +54,7 @@ body{
   z-index: 45;
   color: black;
   font-size: 20px;
-  margin:800px 0 0 87.2%; 
+  margin:790px 0 0 87.2%; 
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -68,7 +68,7 @@ body{
   z-index: 35;
   color: black;
   font-size: 20px;
-  margin:800px 0 0 83.2%; 
+  margin:790px 0 0 83.2%; 
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -82,7 +82,7 @@ body{
   background-color: white;
   color:black;
   font-size: 20px;
-  margin:800px 0 0 82%; 
+  margin:790px 0 0 82%; 
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -96,7 +96,7 @@ body{
   background-color: white;
   color:black;
   font-size: 20px;
-  margin:800px 0 0 79.5%; 
+  margin:790px 0 0 79.5%; 
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -109,7 +109,7 @@ body{
 
 .top-images img{
   object-fit: cover;
-  height: 850px;
+  height: 825px;
   width: 100%;
 }
 
@@ -190,24 +190,25 @@ body{
 }
 
 .greeting-contents{
-  background-color: beige;
+  width: 100%;
+  height: 700px;
+  border: 1px solid black;
   color: gray;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: OSAKA;
+  
 }
 
 .greeting{
-  font-size: 35px;
-  border-bottom: 3px double orangered;
-  margin: 35px;
+  font-size: 40px;
+  margin: 130px 0 60px 0;
 
 }
 .greeting-explanation{
-  width: 95%;
+  width: 900px;
   font-size: 20px;
+  letter-spacing: 10px;
   opacity: 0;
   transform: translateY(20px);
   transition: all 1.3s 0s ease-out;
@@ -237,21 +238,18 @@ body{
 }
 
 .tourism-contents{
-  background-color: beige;
-  height: 500px;
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 6px;
+  line-height: 33px;
+  border: 1px solid black;
+  height: 825px;
   width: 100%;
   padding-top: 100px;
 }
 
-.tourism-back{
-  display: flex;
-  color: white;
-  background-color:gold;
-  height: 450px;
-}
 
 .tourism-images{
-  position: relative;
   margin: 25px 0 0 50px;
 }
 
@@ -279,33 +277,14 @@ body{
   height: 400px;
 }
 .tourism-img1{
-  z-index: 3;
-  position: absolute;
-  animation-name: contents-album ;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
 }
 .tourism-img2{
-  z-index: 2;
-  position: absolute;
-  animation-name: contents-album ;
-  animation-duration: 6s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  opacity: 0;
 }
 .tourism-img3{
-  z-index: 1;
-  position: absolute;
-  animation-name: contents-album ;
-  animation-duration: 6s;
-  animation-delay: 4s;
-  animation-iteration-count: infinite;
-  opacity: 0;
 }
 
 .tourism-letter{
-  width: 40%;
+  width: 400px;
   display: flex;
   flex-direction: column;
   margin-left: 70px;
