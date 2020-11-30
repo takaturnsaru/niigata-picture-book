@@ -10,22 +10,16 @@ body{
 
 .top-contents{
   position: relative;
-  height: 850px;
+  height: 1066px;
   width: 100%;
 }
 .title1{
   position: absolute;
-  writing-mode: vertical-lr;
   z-index: 55;
-  color: gold;
-  font-size: 200px;
-  font-family: STKaiti;
-  margin: 250px 0 0 650px;
-  animation-name: top-album;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
-  animation-name: slideIn;
-  animation-duration: 15s;
+  color:white;
+  font-size: 90px;
+  font-family: OSAKA  "Regular";
+  margin: 230px 0 0 200px;
 }
 .title2{
   position: absolute;
