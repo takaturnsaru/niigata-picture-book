@@ -1,5 +1,5 @@
 body{
-  margin: -8px 0 0 -8px;
+  font-family: OSAKA  "Regular";
 }
 
 .all{
@@ -10,32 +10,51 @@ body{
 
 .top-contents{
   position: relative;
-  height: 850px;
+  height: 825px;
   width: 100%;
+}
+
+.main-menu{
+  position: absolute;
+  z-index: 55;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  width: 400px;
+  margin:20px 0 0 900px;
+  cursor: pointer;
 }
 .title1{
   position: absolute;
-  writing-mode: vertical-lr;
   z-index: 55;
-  color: gold;
-  font-size: 200px;
-  font-family: STKaiti;
-  margin: 250px 0 0 650px;
+  color:white;
+  font-size: 90px;
+  margin: 250px 0 0 100px;
+  letter-spacing: 20px;
+}
+.title2{
+  position: absolute;
+  background-color: white;
+  z-index: 55;
+  color: black;
+  font-size: 20px;
+  margin:790px 0 0 84.5%; 
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-name: slideIn;
   animation-duration: 15s;
+  animation-delay: 0s;
 }
-.title2{
+.title3{
   position: absolute;
-  background:linear-gradient(pink,White);
-  writing-mode: vertical-rl;
+  background-color: white;
   z-index: 45;
-  color: chocolate;
-  font-size: 70px;
-  font-family: STKaiti;
-  margin:35px 0 0 85%; 
+  color: black;
+  font-size: 20px;
+  margin:790px 0 0 87.2%; 
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -43,15 +62,13 @@ body{
   animation-duration: 15s;
   animation-delay: 3s;
 }
-.title3{
+.title4{
   position: absolute;
-  background: linear-gradient(green,yellow);
-  writing-mode: vertical-rl;
+  background-color: white;
   z-index: 35;
-  color: rgb(124, 91, 8);
-  font-size: 70px;
-  font-family: STKaiti;
-  margin: 80px 0 0 85%;
+  color: black;
+  font-size: 20px;
+  margin:790px 0 0 83.2%; 
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -59,15 +76,13 @@ body{
   animation-duration: 15s;
   animation-delay: 6s;
 }
-.title4{
+.title5{
   position: absolute;
-  background: linear-gradient(red,black);
-  writing-mode: vertical-rl;
   z-index: 25;
-  color: gold;
-  font-size: 80px;
-  font-family: STKaiti;
-  margin: 90px 0 0 80%;
+  background-color: white;
+  color:black;
+  font-size: 20px;
+  margin:790px 0 0 82%; 
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -75,15 +90,13 @@ body{
   animation-duration: 15s;
   animation-delay: 9s;
 }
-.title5{
+.title6{
   position: absolute;
-  writing-mode: vertical-rl;
   z-index: 15;
-  background: linear-gradient(White,rgb(13, 137, 238));
+  background-color: white;
   color:black;
-  font-size: 80px;
-  font-family: STKaiti;
-  margin: 100px 0 0 80%;
+  font-size: 20px;
+  margin:790px 0 0 79.5%; 
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
@@ -96,7 +109,7 @@ body{
 
 .top-images img{
   object-fit: cover;
-  height: 850px;
+  height: 825px;
   width: 100%;
 }
 
@@ -177,24 +190,24 @@ body{
 }
 
 .greeting-contents{
-  background-color: beige;
-  color: gray;
+  width: 100%;
+  height: 700px;
+  border: 1px solid black;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: OSAKA;
+  
 }
 
 .greeting{
-  font-size: 35px;
-  border-bottom: 3px double orangered;
-  margin: 35px;
+  font-size: 40px;
+  margin: 130px 0 60px 0;
 
 }
 .greeting-explanation{
-  width: 95%;
-  font-size: 20px;
+  width: 1100px;
+  font-size: 22px;
+  letter-spacing: 7px;
   opacity: 0;
   transform: translateY(20px);
   transition: all 1.3s 0s ease-out;
@@ -204,15 +217,19 @@ body{
 @keyframes slideIn {
   0%{
     opacity: 0;
-    transform: translateY(-64px);
+    transform: translateY(-10px);
   }
-  25%{
+  10%{
     opacity: 1;
     transform: translateY(0);
   }
-  40%{
+  26%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+  33%{
     opacity: 0;
-    transform: translateY(64px);
+    transform: translateY(10px);
   }
   100%{
     opacity: 0;
@@ -220,23 +237,16 @@ body{
 }
 
 .tourism-contents{
-  background-color: beige;
-  height: 500px;
-  width: 100%;
-  padding-top: 100px;
-}
-
-.tourism-back{
   display: flex;
-  color: white;
-  background-color:gold;
-  height: 450px;
+  align-items: center;
+  letter-spacing: 6px;
+  line-height: 33px;
+  border: 1px solid black;
+  height: 1100px;
+  width: 100%;
 }
 
-.tourism-images{
-  position: relative;
-  margin: 25px 0 0 50px;
-}
+
 
 @keyframes contents-album{
   0%{
@@ -255,55 +265,19 @@ body{
     opacity: 0;
   }
 }
-
-.tourism-images img{
-  object-fit: cover;
-  width: 700px;
-  height: 400px;
-}
-.tourism-img1{
-  z-index: 3;
-  position: absolute;
-  animation-name: contents-album ;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-}
-.tourism-img2{
-  z-index: 2;
-  position: absolute;
-  animation-name: contents-album ;
-  animation-duration: 6s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  opacity: 0;
-}
-.tourism-img3{
-  z-index: 1;
-  position: absolute;
-  animation-name: contents-album ;
-  animation-duration: 6s;
-  animation-delay: 4s;
-  animation-iteration-count: infinite;
-  opacity: 0;
-}
-
-.tourism-letter{
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  margin-left: 70px;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: all 1.3s 0s ease-out;
+.tourism-title span{
+  font-size: 50px;
 
 }
 .tourism-title{
-  font-size: 50px;
-  margin: 25px 0;
+  font-size: 20px;
+  border-bottom: 8px solid gold;
+  margin-bottom: 50px;
+  width: 385px;
 }
+
 .tourism-explanation{
   font-size: 20px;
-  margin-top: 30px;
 }
 .tourism-corner-btn {
   margin-top: 60px;
@@ -311,147 +285,148 @@ body{
 }
 .tourism-corner-btn a{
   text-decoration: none;
-  border: 2px solid white;
-  color:white;
-  width: 500px;
-  height: 60px;
-  font-size: 30px;
+  border: 1px solid black;
+  color:black;
+  font-size: 15px;
   transition: background-color .5s;
-  padding: 15px 15px 15px 10px;
+  padding: 20px 80px 20px 10px;
   
 }
 
 .tourism-corner-btn a:hover{
-  background-color: rgb(250, 230, 117);
-}
-
-.gourmet-contents{
-  background-color: beige;
-  height: 640px;
-  width: 100%;
-  padding-top: 100px;
-}
-
-.gourmet-back{
-  display: flex;
+  background-color: black;
   color: white;
-  background-color:red;
-  height: 450px;
 }
-
-.gourmet-images{
-  position: relative;
-}
-
-.gourmet-images img{
-  object-fit: cover;
-  width: 700px;
-  height: 400px;
-  margin: 25px 0 0 50px ;
-}
-
-.gourmet-img1{
-  z-index: 3;
-  position: absolute;
-  animation-name: contents-album ;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-}
-
-.gourmet-img2{
-  z-index: 2;
-  position: absolute;
-  animation-name: contents-album ;
-  animation-duration: 6s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  opacity: 0;
-
-}
-
-.gourmet-img3{
-  z-index: 1;
-  position: absolute;
-  animation-name: contents-album ;
-  animation-duration: 6s;
-  animation-delay: 4s;
-  animation-iteration-count: infinite;
-  opacity: 0;
-}
-
-.gourmet-letter{
-  width: 40%;
+.tourism-images{
   display: flex;
+  align-items: center;
   flex-direction: column;
-  margin-left: 800px;
+  margin-left: 300px;
+
+}
+.tourism-images img{
+  object-fit: cover;
+  width: 520px;
+  height: 380px;
+}
+
+.tourism-letter{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  margin-left:100px;
   opacity: 0;
   transform: translateY(20px);
   transition: all 1.3s 0s ease-out;
 }
 
-.gourmet-title{
+.gourmet-contents{
+  border:1px solid black;
+  letter-spacing: 6px;
+  line-height: 33px;
+  height: 825px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+.gourmet-images{
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 500px;
+  margin-left: 100px;
+}
+.gourmet-image{
+  display: flex;
+  justify-content: space-between;
+}
+.gourmet-image img{
+  width: 330px;
+  height: 250px;
+}
+
+.gourmet-img3 img{
+  width: 700px;
+  height: 250px;
+}
+
+.gourmet-letter{
+display: flex;
+flex-direction: column;
+margin-left: 120px;
+}
+
+.gourmet-title {
+  font-size: 20px;
+  margin-bottom: 50px;
+  border-bottom: 8px solid red;
+  width: 387px;
+
+  
+}
+.gourmet-title span{
   font-size: 50px;
-  margin: 25px 0;
+
+
 }
 .gourmet-explanation{
+  width: 400px;
   font-size: 20px;
-  margin-top: 30px;
 }
+
+
+
 .gourmet-corner-btn {
-  margin-top: 80px;
-  
+  margin-top: 70px;
 }
 .gourmet-corner-btn a{
   text-decoration: none;
-  border: 2px solid white;
-  color:white;
-  width: 500px;
-  height: 60px;
-  font-size: 30px;
+  border: 1px solid black;
+  color:black;
+  font-size: 15px;
   transition: background-color .5s;
-  padding: 15px 15px 15px 10px;
+  padding: 20px 80px 20px 10px;
   cursor:pointer;
 }
 
 .gourmet-corner-btn a:hover{
-  background-color: rgb(253, 115, 115);
-}
-.sports-content{
-  background-color: beige;
-  height: 500px;
-  width: 100%;
-  padding-top: 100px;
-}
-
-.sports-back{
-  display: flex;
+  background-color: black;
   color: white;
-  background-color:orange;
-  height: 450px;
+}
+.activity-contents{
+  height: 1100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
-.sports-images{
-  position: relative;
+
+.activity-images{
+  width: 650px;
+  height: 650px;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 10px;
+
 }
 
-.sports-images img{
+.activity-images img{
   object-fit: cover;
-  width: 700px;
-  height: 400px;
-  margin: 25px 0 0 50px ;
+  width: 300px;
+  height: 200px;
 }
 
-.sports-img1{
-  z-index: 3;
-  position: absolute;
+.activity-img1{
   animation-name: contents-album ;
   animation-duration: 6s;
   animation-iteration-count: infinite;
 }
 
-.sports-img2{
-  z-index: 2;
-  position: absolute;
+.activity-img2{
   animation-name: contents-album ;
   animation-duration: 6s;
   animation-delay: 2s;
@@ -460,9 +435,7 @@ body{
 
 }
 
-.sports-img3{
-  z-index: 1;
-  position: absolute;
+.activity-img3{
   animation-name: contents-album ;
   animation-duration: 6s;
   animation-delay: 4s;
@@ -470,29 +443,31 @@ body{
   opacity: 0;
 }
 
-.sports-letter{
-  width: 40%;
+.activity-letter{
+  width: 400px;
   display: flex;
   flex-direction: column;
-  margin-left: 50px;
   opacity: 0;
   transform: translateY(20px);
   transition: all 1.3s 0s ease-out;
 
 }
-.sports-title{
-  font-size: 50px;
-  margin: 25px 0;
+.activity-title{
+  font-size: 20px;
+  border-bottom: 8  px solid lawngreen;
 }
-.sports-explanation{
+.activity-title span{
+  font-size: 50px;
+}
+.activity-explanation{
   font-size: 20px;
   margin-top: 30px;
 }
-.sports-corner-btn {
+.activity-corner-btn {
   margin-top: 60px;
   
 }
-.sports-corner-btn a{
+.activity-corner-btn a{
   text-decoration: none;
   border: 2px solid white;
   color:white;
@@ -504,48 +479,10 @@ body{
   cursor:pointer;
 }
 
-.sports-corner-btn a:hover{
+.activity-corner-btn a:hover{
   background-color:rgb(252, 205, 119);
 }
 
-.sports-type{
-  background-color: blue;
-  width: 450px;
-  margin: 25px 0 300px 250px;
-  display: none;
-
-}
-.sports-type.open{
-  list-style: none;
-  background-color: blue;
-  width: 450px;
-  margin: 25px 0 300px 250px;
-}
-
-.sports-type a{
-  text-decoration: none;
-  color: white;
-  transition: color .3s;
-
-}
-.sports-type a:hover{
-  color: gold;
-}
-
-.sports-type1{
-  font-size: 20px;
-  padding: 20px 0 20px 10px;
-}
-.sports-type2{
-  font-size: 20px;
-  padding: 20px 0 20px 10px;
-  border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
-}
-.sports-type3{
-  font-size: 20px;
-  padding: 20px 0 20px 10px;
-}
 
 
 .footer{
