@@ -358,6 +358,10 @@ body{
 display: flex;
 flex-direction: column;
 margin-left: 120px;
+opacity: 0;
+transform: translateY(20px);
+transition: all 1.3s 0s ease-out;
+
 }
 
 .gourmet-title {
@@ -398,7 +402,8 @@ margin-left: 120px;
   color: white;
 }
 .activity-contents{
-  height: 1100px;
+  border: 1px solid black;
+  height: 950px;
   width: 100%;
   letter-spacing: 6px;
   line-height: 33px;
@@ -445,7 +450,6 @@ margin-left: 120px;
 }
 .activity-explanation{
   font-size: 20px;
-  margin-top: 30px;
 }
 .activity-corner-btn {
   margin-top: 60px;
