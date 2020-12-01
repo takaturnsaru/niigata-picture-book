@@ -470,6 +470,49 @@ transition: all 1.3s 0s ease-out;
   color: white;
 }
 
+.access-contents{
+  width: 100%;
+  height: 1770px;
+  letter-spacing: 6px;
+  line-height: 33px;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.access-title{
+  font-size: 50px;
+  border-bottom: 8px solid blue;
+  width: 387px;
+  margin: 100px 0 50px 100px;
+}
+
+.access-map iframe{
+  width: 86%;
+  height: 700px;
+  margin-left: 100px;
+}
+
+.access-guide{
+  width: 80%;
+  height: 800px;
+  margin: 100px 0 0 100px;
+}
+
+.access-place span{
+  font-size: 50px;
+}
+.access-place {
+  font-size: 20px;
+  margin-bottom: 70px;
+}
+
+.access-method span{
+  font-size: 40px;
+}
+.access-method-contents{
+  width: 100%;
+  margin-bottom: 50px;
+}
 
 
 footer{
