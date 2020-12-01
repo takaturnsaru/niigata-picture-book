@@ -2,29 +2,50 @@ body{
   font-family: OSAKA  "Regular";
 }
 
-.all{
-  height: 100vh;
-  width: 100%;
-  background-color:beige;
-}
 
 .top-contents{
+  
   position: relative;
   height: 825px;
   width: 100%;
 }
 
-.main-menu{
-  position: absolute;
+.main-menu {
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  position: fixed;
   z-index: 55;
-  display: flex;
-  justify-content: space-between;
   list-style: none;
-  color: white;
   font-size: 20px;
-  width: 400px;
-  margin:20px 0 0 900px;
+  width: 40px;
+  height: 825px;
+  margin:0 0 0 97.2%;
   cursor: pointer;
+}
+
+.main-menu li{
+  writing-mode: vertical-rl;
+  color: black;
+  transition: color .3s;
+}
+
+.main-menu li:hover{
+  color: rgb(128, 128, 128);
+}
+
+.move-btn1{
+  margin-top: 300px;
+}
+.move-btn2{
+  margin-top: 50px;
+}
+.move-btn3{
+  margin-top: 50px;
+}
+.move-btn4{
+  margin-top: 50px;
 }
 .title1{
   position: absolute;
@@ -33,6 +54,7 @@ body{
   font-size: 90px;
   margin: 250px 0 0 100px;
   letter-spacing: 20px;
+  font-weight: bold;
 }
 .title2{
   position: absolute;
@@ -40,13 +62,15 @@ body{
   z-index: 55;
   color: black;
   font-size: 20px;
-  margin:790px 0 0 84.5%; 
+  margin:795px 0 0 83.5%; 
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-name: slideIn;
   animation-duration: 15s;
   animation-delay: 0s;
+  font-weight: bold;
+
 }
 .title3{
   position: absolute;
@@ -54,13 +78,15 @@ body{
   z-index: 45;
   color: black;
   font-size: 20px;
-  margin:790px 0 0 87.2%; 
+  margin:795px 0 0 86.2%; 
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-name: slideIn;
   animation-duration: 15s;
   animation-delay: 3s;
+  font-weight: bold;
+
 }
 .title4{
   position: absolute;
@@ -68,13 +94,15 @@ body{
   z-index: 35;
   color: black;
   font-size: 20px;
-  margin:790px 0 0 83.2%; 
+  margin:795px 0 0 82%; 
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-name: slideIn;
   animation-duration: 15s;
   animation-delay: 6s;
+  font-weight: bold;
+
 }
 .title5{
   position: absolute;
@@ -82,13 +110,15 @@ body{
   background-color: white;
   color:black;
   font-size: 20px;
-  margin:790px 0 0 82%; 
+  margin:795px 0 0 80.5%; 
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-name: slideIn;
   animation-duration: 15s;
   animation-delay: 9s;
+  font-weight: bold;
+
 }
 .title6{
   position: absolute;
@@ -96,13 +126,15 @@ body{
   background-color: white;
   color:black;
   font-size: 20px;
-  margin:790px 0 0 79.5%; 
+  margin:795px 0 0 78%; 
   animation-name: top-album;
   animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-name: slideIn;
   animation-duration: 15s;
   animation-delay: 12s;
+  font-weight: bold;
+
 }
 
 
@@ -190,9 +222,11 @@ body{
 }
 
 .greeting-contents{
+  z-index: 100;
+  background-color: white;
   width: 100%;
   height: 700px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid lightgray;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -237,11 +271,12 @@ body{
 }
 
 .tourism-contents{
+  background-color: white;
   display: flex;
   align-items: center;
   letter-spacing: 6px;
   line-height: 33px;
-  border: 1px solid black;
+  border-bottom: 1px solid lightgray;
   height: 1100px;
   width: 100%;
 }
@@ -323,7 +358,8 @@ body{
 }
 
 .gourmet-contents{
-  border:1px solid black;
+  background-color: white;
+  border-bottom:1px solid lightgray;
   letter-spacing: 6px;
   line-height: 33px;
   height: 825px;
@@ -355,13 +391,13 @@ body{
 }
 
 .gourmet-letter{
-display: flex;
-flex-direction: column;
-margin-left: 120px;
-opacity: 0;
-transform: translateY(20px);
-transition: all 1.3s 0s ease-out;
-
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1.3s 0s ease-out;
+  
 }
 
 .gourmet-title {
@@ -402,7 +438,8 @@ transition: all 1.3s 0s ease-out;
   color: white;
 }
 .activity-contents{
-  border: 1px solid black;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
   height: 950px;
   width: 100%;
   letter-spacing: 6px;
@@ -471,11 +508,11 @@ transition: all 1.3s 0s ease-out;
 }
 
 .access-contents{
+  background-color: white;
   width: 100%;
-  height: 1830px;
+  height: 1750px;
   letter-spacing: 6px;
   line-height: 33px;
-  border: 1px solid black;
   align-items: center;
 }
 
@@ -483,7 +520,8 @@ transition: all 1.3s 0s ease-out;
   font-size: 50px;
   border-bottom: 8px solid blue;
   width: 387px;
-  margin: 100px 0 50px 100px;
+  padding: 100px 0 0 0;
+  margin: 0 0 50px 100px;
 }
 
 .access-map iframe{
@@ -522,21 +560,27 @@ transition: all 1.3s 0s ease-out;
 footer{
   letter-spacing: 6px;
   line-height: 33px;
-  height: 300px;
-  width: 100%;
-  display: flex;
-  align-items: baseline;
-}
-
-.footer-contents{
   height: 200px;
   width: 100%;
   background-color: black;
+}
+
+.footer-contents{
+  background-color: black;
   display: flex;
-  justify-content: center;
-  align-items:center;
   flex-direction: column;
-  margin-top: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+#top-btn{
+  color:white;
+  cursor: pointer;
+  padding: 25px 10px 0 15px ;
+}
+#top-btn a:hover{
+  transition: color .5s;
+  color: rgb(139, 139, 139);
 }
 
 .footer-btns{
@@ -546,7 +590,7 @@ footer{
 
 }
 .content-btn a{
-  font-size: 25px;
+  font-size: 17px;
   margin: 40px;
   text-decoration: none;
   color: white;
