@@ -358,6 +358,10 @@ body{
 display: flex;
 flex-direction: column;
 margin-left: 120px;
+opacity: 0;
+transform: translateY(20px);
+transition: all 1.3s 0s ease-out;
+
 }
 
 .gourmet-title {
@@ -398,8 +402,11 @@ margin-left: 120px;
   color: white;
 }
 .activity-contents{
-  height: 1100px;
+  border: 1px solid black;
+  height: 950px;
   width: 100%;
+  letter-spacing: 6px;
+  line-height: 33px;
   display: flex;
   align-items: center;
 }
@@ -408,6 +415,7 @@ margin-left: 120px;
 .activity-images{
   width: 650px;
   height: 650px;
+  margin-left: 200px;
   display: grid;
   grid-template-columns: 300px 300px;
   gap: 10px;
@@ -420,31 +428,10 @@ margin-left: 120px;
   height: 200px;
 }
 
-.activity-img1{
-  animation-name: contents-album ;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-}
-
-.activity-img2{
-  animation-name: contents-album ;
-  animation-duration: 6s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  opacity: 0;
-
-}
-
-.activity-img3{
-  animation-name: contents-album ;
-  animation-duration: 6s;
-  animation-delay: 4s;
-  animation-iteration-count: infinite;
-  opacity: 0;
-}
 
 .activity-letter{
   width: 400px;
+  margin-left: 100px;
   display: flex;
   flex-direction: column;
   opacity: 0;
@@ -454,14 +441,15 @@ margin-left: 120px;
 }
 .activity-title{
   font-size: 20px;
-  border-bottom: 8  px solid lawngreen;
+  margin-bottom: 50px;
+  border-bottom: 8px solid lawngreen;
+  width: 387px;
 }
 .activity-title span{
   font-size: 50px;
 }
 .activity-explanation{
   font-size: 20px;
-  margin-top: 30px;
 }
 .activity-corner-btn {
   margin-top: 60px;
@@ -469,24 +457,24 @@ margin-left: 120px;
 }
 .activity-corner-btn a{
   text-decoration: none;
-  border: 2px solid white;
-  color:white;
-  width: 500px;
-  height: 60px;
-  font-size: 30px;
+  border: 1px solid black;
+  color:black;
+  font-size: 15px;
   transition: background-color .5s;
-  padding: 15px 15px 15px 10px;
-  cursor:pointer;
+  padding: 20px 80px 20px 10px;
+  
 }
 
 .activity-corner-btn a:hover{
-  background-color:rgb(252, 205, 119);
+  background-color: black;
+  color: white;
 }
 
 
 
-.footer{
-  background-color: beige;
+footer{
+  letter-spacing: 6px;
+  line-height: 33px;
   height: 300px;
   width: 100%;
   display: flex;
@@ -506,6 +494,9 @@ margin-left: 120px;
 
 .footer-btns{
   display: flex;
+  justify-content: space-between;
+  width: 60%;
+
 }
 .content-btn a{
   font-size: 25px;
