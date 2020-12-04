@@ -5,17 +5,22 @@
 
 - 新潟の観光地、グルメ、アクティビティを紹介するサイトです。
 
-## 本番環境
-
-- https://niigata-picture-book.herokuapp.com
-
-- Basic認証
-- ID:saru
-- パスワード:1012
 
 ## demo
+トップ画面
+https://user-images.githubusercontent.com/69668280/101127560-2c5d0580-3641-11eb-9018-77d6bfbeebdf.gif
 
-https://user-images.githubusercontent.com/69668280/100837907-d3606680-34b4-11eb-9245-b3e571f57264.gif
+全体
+https://user-images.githubusercontent.com/69668280/101128504-2bc56e80-3643-11eb-8fe7-122a3b7e64b8.gif
+
+アニメーション①
+https://user-images.githubusercontent.com/69668280/101128636-6fb87380-3643-11eb-9101-97f5555441ad.gif
+
+アニメーション②
+https://user-images.githubusercontent.com/69668280/101128596-5ca5a380-3643-11eb-8bd8-6d64a6895c6b.gif
+
+アニメーション③
+https://user-images.githubusercontent.com/69668280/101128690-878ff780-3643-11eb-9a20-c4946a1083da.gif
 
 ## 制作背景
 
