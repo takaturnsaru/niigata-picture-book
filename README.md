@@ -8,7 +8,7 @@
 
 ## demo
 トップ画面
-https://user-images.githubusercontent.com/69668280/101127560-2c5d0580-3641-11eb-9018-77d6bfbeebdf.gif
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/69668280/101127560-2c5d0580-3641-11eb-9018-77d6bfbeebdf.gif)
 
 全体
 https://user-images.githubusercontent.com/69668280/101128504-2bc56e80-3643-11eb-8fe7-122a3b7e64b8.gif
