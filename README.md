@@ -13,15 +13,19 @@
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/69668280/101127560-2c5d0580-3641-11eb-9018-77d6bfbeebdf.gif)
 
 - 全体 
+
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/69668280/101128504-2bc56e80-3643-11eb-8fe7-122a3b7e64b8.gif)
 
 - アニメーション①(ボタンの色変化) 
+
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/69668280/101128636-6fb87380-3643-11eb-9101-97f5555441ad.gif)
 
 - アニメーション②(ボタンの色変化) 
+
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/69668280/101128596-5ca5a380-3643-11eb-8bd8-6d64a6895c6b.gif)
 
 - アニメーション③(各コンテンツに移動機能) 
+
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/69668280/101128690-878ff780-3643-11eb-9a20-c4946a1083da.gif)
 
 ## 制作背景
