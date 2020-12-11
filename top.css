@@ -312,6 +312,7 @@ body{
 }
 .tourism-corner-btn {
   margin-top: 60px;
+
   
 }
 .tourism-corner-btn a{
@@ -327,12 +328,14 @@ body{
 .tourism-corner-btn a:hover{
   background-color: black;
   color: white;
+
 }
 .tourism-images{
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-left: 300px;
+
 
 }
 .tourism-images img{
