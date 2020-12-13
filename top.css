@@ -1,3 +1,4 @@
+
 body{
   font-family: OSAKA  "Regular";
 }
@@ -620,4 +621,331 @@ footer{
 
 .company{
   color: white;
+}
+
+@media screen and (max-width:600px){
+  .all{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .top-contents{
+     width: 100%;
+     height: 60vh;
+     border-bottom:1px solid black ;
+    }
+  .main-menu{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    position: static;
+    justify-content: space-between;
+    padding: 0 50px;
+
+  }
+
+  .main-menu li{
+    font-size: 10px;
+    writing-mode: horizontal-tb;
+    margin-top: 10px;
+  }
+
+  .top-images img{
+    width: 100%;
+    height: 35%;    
+  }
+
+  .top-img1,.top-img2,.top-img3,.top-img4,.top-img5{
+    animation:none;
+  }
+  .title1{
+    font-size: 100%;
+    width: 270px;
+    height: 100px;
+    margin: 30% 0 0 10%;
+  }
+  
+  .title2,.title3,.title4,.title5,.title6{
+    visibility: hidden;
+  }
+
+  .greeting-contents{
+    width: 100%;
+    height: 1050px;
+    border-bottom: 3px solid black;
+  }
+  section{
+    flex-direction: column;
+  }
+
+  .greeting{
+    font-size: 30px;
+    transition: none;
+    transform: none;
+
+  }
+  
+  .greeting-explanation{
+  font-size: 20px;
+  width: 90%;
+  transition: none;
+  transform: none;
+
+  }
+
+  .tourism-contents{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 800px;
+    border-bottom: 3px solid black;
+  }
+  .tourism-letter {
+    transition: none;
+    transform: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .tourism-letter show{
+    height: 700px;
+  }
+
+  .tourism-title{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin:0 0 0 30px;
+    border-bottom: 3px solid gold;
+    width: 270px;
+  }
+  .tourism-title span{
+    font-size: 30px;
+    animation: none;
+
+  }
+  .tourism-explanation{
+    width:90vw;
+    height: 330px;
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    animation: none;
+  }
+
+  .tourism-corner-btn a{
+    background-color: black;
+    color: white;
+    animation: none;
+    padding: 20px 80px 20px 5px;
+
+  }
+  .tourism-images{
+    flex-direction: row;
+    width: 90%;
+    height: 10px;
+    margin:105px 0 0 0;
+  }
+  .tourism-images img{
+    object-fit: cover;
+    width: 100%;
+    height: 28vh;
+    margin-top: 40px;
+  }
+  .tourism-img1,.tourism-img2{
+    width: 50%;
+  }
+  
+  .gourmet-contents{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    height: 1000px;
+    border-bottom: 3px solid black;
+  }
+  .gourmet-letter {
+    transition: none;
+    transform: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .gourmet-letter show{
+    height: 700px;
+  }
+
+  .gourmet-title{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin:0 0 0 30px;
+    border-bottom: 3px solid red;
+    width: 330px;
+  }
+  .gourmet-title span{
+    font-size: 30px;
+    animation: none;
+
+  }
+  .gourmet-explanation{
+    width:90vw;
+    height: 250px;
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    animation: none;
+  }
+
+  .gourmet-corner-btn {
+    margin: 0;
+  }
+  
+  .gourmet-corner-btn a{
+    width: 300px;
+    background-color: black;
+    color: white;
+    animation: none;
+    padding: 20px 60px 20px 5px;
+
+  }
+  .gourmet-img1{
+    display: none;
+  }
+
+  .gourmet-images {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 0 0;
+    
+  }
+  .gourmet-images img{
+    object-fit: cover;
+    width: 100%;
+    height: 30vh;
+  }
+  .activity-contents{
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 0 0;
+    width: 100%;
+    height: 1000px;
+    border-bottom: 3px solid black;
+  }
+  .activity-letter {
+    transition: none;
+    transform: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .activity-letter show{
+    height: 700px;
+  }
+
+  .activity-title{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin:0 0 0 30px;
+    border-bottom: 3px solid lawngreen;
+    width: 270px;
+  }
+  .activity-title span{
+    font-size: 30px;
+    animation: none;
+
+  }
+  .activity-explanation{
+    width:90vw;
+    height: 250px;
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    animation: none;
+  }
+
+  .activity-corner-btn a{
+    background-color: black;
+    color: white;
+    animation: none;
+    padding: 20px 80px 20px 5px;
+
+  }
+
+  .activity-images {
+    grid-template-columns: none;
+    gap: 0;
+    width: 100%;
+    margin: 13px 0 0 40px;
+    height: 300px;
+  }
+  .activity-images img{
+    object-fit: cover;
+    width: 90%;
+  }
+  .activity-img3,.activity-img4,.activity-img5,.activity-img6{
+    display: none;
+  }
+
+  .access-contents{
+    align-items: center;
+    width: 100%;
+    height: 1750px;
+    border-bottom: 3px solid black;
+  }
+
+.access-title{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin:0 0 0 30px;
+  border-bottom: 3px solid blue;
+  width: 270px;
+}
+
+.access-map iframe{
+  margin: 20px 0 0 20px;
+  width: 90%;
+  height: 300px;
+}
+
+.access-root{
+  width: 90%;
+}
+.access-guide{
+  margin: 0 0 0 20px;
+  width: 100%;
+}
+.access-place{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.access-place span{
+  font-size: 35px;
+}
+
+.access-method-contents{
+  width: 90%;
+  margin: 20px 0;
+}
+
+.access-method{
+  font-size: 20px;
+}
+.access-method span{
+  font-size: 30px;
+}
+
+.activity-explanation{
+  width: 90%;
+  height: 300px;
+}
+
+footer{
+  display: none;
+}
 }
