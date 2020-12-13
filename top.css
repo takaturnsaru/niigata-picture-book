@@ -626,7 +626,8 @@ footer{
 @media screen and (max-width:600px){
   .top-contents{
      width: 100%;
-     height: 400px;
+     height: 60vh;
+     border-bottom:1px solid black ;
     }
   .main-menu{
     display: flex;
@@ -662,4 +663,19 @@ footer{
   .title2,.title3,.title4,.title5,.title6{
     visibility: hidden;
   }
+
+  .greeting-contents{
+    width: 100%;
+  }
+
+  .greeting{
+    font-size: 30px;
+  }
+  
+  .greeting-explanation{
+  font-size: 20px;
+  width: 90%;
+  }
+
+
 }
