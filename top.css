@@ -1,3 +1,4 @@
+
 body{
   font-family: OSAKA  "Regular";
 }
@@ -620,4 +621,45 @@ footer{
 
 .company{
   color: white;
+}
+
+@media screen and (max-width:600px){
+  .top-contents{
+     width: 100%;
+     height: 400px;
+    }
+  .main-menu{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    position: static;
+    justify-content: space-between;
+    padding: 0 50px;
+
+  }
+
+  .main-menu li{
+    font-size: 10px;
+    writing-mode: horizontal-tb;
+    margin-top: 10px;
+  }
+
+  .top-images img{
+    width: 100%;
+    height: 35%;    
+  }
+
+  .top-img1,.top-img2,.top-img3,.top-img4,.top-img5{
+    animation:none;
+  }
+  .title1{
+    font-size: 100%;
+    width: 150%;
+    height: 150%;
+    margin: 30% 0 0 10%;
+  }
+  
+  .title2,.title3,.title4,.title5,.title6{
+    visibility: hidden;
+  }
 }
