@@ -624,6 +624,10 @@ footer{
 }
 
 @media screen and (max-width:600px){
+  .all{
+    flex-direction: column;
+    justify-content: center;
+  }
   .top-contents{
      width: 100%;
      height: 60vh;
@@ -691,10 +695,9 @@ footer{
   .tourism-contents{
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin: 0;
+    margin-top: 50px;
     width: 100%;
-    height: 1000px;
+    height: 800px;
     border-bottom: 3px solid black;
   }
   .tourism-letter {
@@ -826,8 +829,7 @@ footer{
   .activity-contents{
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin: 100px 0 0 0;
+    margin: 50px 0 0 0;
     width: 100%;
     height: 1000px;
     border-bottom: 3px solid black;
@@ -890,6 +892,9 @@ footer{
 
   .access-contents{
     align-items: center;
+    width: 100%;
+    height: 1750px;
+    border-bottom: 3px solid black;
   }
 
 .access-title{
@@ -906,5 +911,41 @@ footer{
   margin: 20px 0 0 20px;
   width: 90%;
   height: 300px;
+}
+
+.access-root{
+  width: 90%;
+}
+.access-guide{
+  margin: 0 0 0 20px;
+  width: 100%;
+}
+.access-place{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.access-place span{
+  font-size: 35px;
+}
+
+.access-method-contents{
+  width: 90%;
+  margin: 20px 0;
+}
+
+.access-method{
+  font-size: 20px;
+}
+.access-method span{
+  font-size: 30px;
+}
+
+.activity-explanation{
+  width: 90%;
+  height: 300px;
+}
+
+footer{
+  display: none;
 }
 }
